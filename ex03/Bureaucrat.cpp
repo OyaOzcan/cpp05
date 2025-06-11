@@ -24,7 +24,9 @@ Bureaucrat& Bureaucrat::operator=(const Bureaucrat& other) {
 Bureaucrat::~Bureaucrat() {
 	std::cout << "Bureaucrat destructor called for: " << _name << std::endl;
 }
+
 const std::string& Bureaucrat::getName() const { return _name; }
+
 int Bureaucrat::getGrade() const { return _grade; }
 
 void Bureaucrat::incrementGrade() {
